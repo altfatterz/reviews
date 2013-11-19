@@ -1,0 +1,8 @@
+---
+applications:
+- name: reviews
+  memory: 512M
+  instances: 1
+  host: backbase-inspiration-labs
+  domain: cfapps.io
+  path: target/reviews-1.0-SNAPSHOT.jar
